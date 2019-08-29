@@ -1,0 +1,4 @@
+all:
+    project_dir: "/scr1/users/leej39/Redding"
+    fastq_dir: "/scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq"
+    admin_email: "junglee0713@gmail.com"
