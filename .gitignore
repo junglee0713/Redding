@@ -34,3 +34,6 @@ vignettes/*.pdf
 
 # Shiny token, see https://shiny.rstudio.com/articles/shinyapps.html
 rsconnect/
+
+# Data files that are too big
+Redding_Original_Data_From_Alex/
