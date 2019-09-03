@@ -1,0 +1,3 @@
+NameError in line 19 of /scr1/users/leej39/Redding/Snakefile:
+name 'TARGET_ALL' is not defined
+  File "/scr1/users/leej39/Redding/Snakefile", line 19, in <module>

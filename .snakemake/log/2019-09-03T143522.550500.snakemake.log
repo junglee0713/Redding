@@ -1,0 +1,27 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	final_filter
+	1
+
+rule final_filter:
+    input: /scr1/users/leej39/Redding/assembly/megahit/S42_asm/final.contigs.fa
+    output: /scr1/users/leej39/Redding/assembly/contigs/S42-contigs.fa
+    log: /scr1/users/leej39/Redding/assembly/log/vsearch/S42.log
+    jobid: 0
+    wildcards: sample=S42
+
+
+        if [ -s /scr1/users/leej39/Redding/assembly/megahit/S42_asm/final.contigs.fa ]
+        then
+            vsearch --sortbylength /scr1/users/leej39/Redding/assembly/megahit/S42_asm/final.contigs.fa             --minseqlength 300             --maxseqlength -1             --notrunclabels             --output /scr1/users/leej39/Redding/assembly/megahit/S42_asm/final.contigs.fa.300f &> /scr1/users/leej39/Redding/assembly/log/vsearch/S42.log &&             cp /scr1/users/leej39/Redding/assembly/megahit/S42_asm/final.contigs.fa.300f /scr1/users/leej39/Redding/assembly/contigs/S42-contigs.fa
+        else
+            cp /scr1/users/leej39/Redding/assembly/megahit/S42_asm/final.contigs.fa /scr1/users/leej39/Redding/assembly/contigs/S42-contigs.fa &> /scr1/users/leej39/Redding/assembly/log/vsearch/S42.log
+        fi
+        
+Finished job 0.
+1 of 1 steps (100%) done
+Complete log: /scr1/users/leej39/Redding/.snakemake/log/2019-09-03T143522.550500.snakemake.log

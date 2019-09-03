@@ -1,1 +1,42 @@
-TARGET
+rule all_assembly:
+    input: 
+        TARGET_ASSEMBLY
+
+rule final_filter:
+    input:
+        ASSEMBLY_DIR + "/megahit/{sample}_asm/final.contigs.fa"
+    output:
+        ASSEMBLY_DIR + "/contigs/{sample}-contigs.fa"
+    params:
+        len = config['assembly']['min_length']
+    log:
+        ASSEMBLY_DIR + "/log/vsearch/{sample}.log"
+    run:
+        filename = os.path.basename(input[0])
+        shell(
+        """
+        if [ -s {input} ]
+        then
+            vsearch --sortbylength {input} \
+            --minseqlength {params.len} \
+            --maxseqlength -1 \
+            --notrunclabels \
+            --output {input}.{params.len}f &> {log} && \
+            cp {input}.{params.len}f {output}
+        else
+            cp {input} {output} &> {log}
+        fi
+        """) 
+
+rule megahit_unpaired:
+    input:
+        FASTQ_DIR + "/{sample}_R1.fastq.gz"
+    output:
+        ASSEMBLY_DIR + "/megahit/{sample}_asm/final.contigs.fa"
+    params:
+        out_fp = ASSEMBLY_DIR + "/megahit/{sample}_asm"
+    shell:
+        """
+        megahit -r {input} -o {params.out_fp} --continue || \
+        if [ ! -a {output} ]; then touch {output}; fi
+        """

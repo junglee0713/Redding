@@ -1,0 +1,1179 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cluster nodes: 80
+Job counts:
+	count	jobs
+	1	all
+	48	final_filter
+	48	megahit_unpaired
+	97
+
+rule megahit_unpaired:
+    input: /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S41_R1.fastq.gz
+    output: /scr1/users/leej39/Redding/assembly/megahit/S41_asm/final.contigs.fa
+    jobid: 56
+    wildcards: sample=S41
+
+
+        megahit -r /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S41_R1.fastq.gz -o /scr1/users/leej39/Redding/assembly/megahit/S41_asm --continue ||         if [ ! -a /scr1/users/leej39/Redding/assembly/megahit/S41_asm/final.contigs.fa ]; then touch /scr1/users/leej39/Redding/assembly/megahit/S41_asm/final.contigs.fa; fi
+        
+Submitted job 56 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule megahit_unpaired:
+    input: /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S27_R1.fastq.gz
+    output: /scr1/users/leej39/Redding/assembly/megahit/S27_asm/final.contigs.fa
+    jobid: 69
+    wildcards: sample=S27
+
+
+        megahit -r /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S27_R1.fastq.gz -o /scr1/users/leej39/Redding/assembly/megahit/S27_asm --continue ||         if [ ! -a /scr1/users/leej39/Redding/assembly/megahit/S27_asm/final.contigs.fa ]; then touch /scr1/users/leej39/Redding/assembly/megahit/S27_asm/final.contigs.fa; fi
+        
+Submitted job 69 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule megahit_unpaired:
+    input: /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S4_R1.fastq.gz
+    output: /scr1/users/leej39/Redding/assembly/megahit/S4_asm/final.contigs.fa
+    jobid: 54
+    wildcards: sample=S4
+
+
+        megahit -r /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S4_R1.fastq.gz -o /scr1/users/leej39/Redding/assembly/megahit/S4_asm --continue ||         if [ ! -a /scr1/users/leej39/Redding/assembly/megahit/S4_asm/final.contigs.fa ]; then touch /scr1/users/leej39/Redding/assembly/megahit/S4_asm/final.contigs.fa; fi
+        
+Submitted job 54 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule megahit_unpaired:
+    input: /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S48_R1.fastq.gz
+    output: /scr1/users/leej39/Redding/assembly/megahit/S48_asm/final.contigs.fa
+    jobid: 52
+    wildcards: sample=S48
+
+
+        megahit -r /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S48_R1.fastq.gz -o /scr1/users/leej39/Redding/assembly/megahit/S48_asm --continue ||         if [ ! -a /scr1/users/leej39/Redding/assembly/megahit/S48_asm/final.contigs.fa ]; then touch /scr1/users/leej39/Redding/assembly/megahit/S48_asm/final.contigs.fa; fi
+        
+Submitted job 52 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule megahit_unpaired:
+    input: /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S8_R1.fastq.gz
+    output: /scr1/users/leej39/Redding/assembly/megahit/S8_asm/final.contigs.fa
+    jobid: 60
+    wildcards: sample=S8
+
+
+        megahit -r /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S8_R1.fastq.gz -o /scr1/users/leej39/Redding/assembly/megahit/S8_asm --continue ||         if [ ! -a /scr1/users/leej39/Redding/assembly/megahit/S8_asm/final.contigs.fa ]; then touch /scr1/users/leej39/Redding/assembly/megahit/S8_asm/final.contigs.fa; fi
+        
+Submitted job 60 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule megahit_unpaired:
+    input: /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S38_R1.fastq.gz
+    output: /scr1/users/leej39/Redding/assembly/megahit/S38_asm/final.contigs.fa
+    jobid: 68
+    wildcards: sample=S38
+
+
+        megahit -r /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S38_R1.fastq.gz -o /scr1/users/leej39/Redding/assembly/megahit/S38_asm --continue ||         if [ ! -a /scr1/users/leej39/Redding/assembly/megahit/S38_asm/final.contigs.fa ]; then touch /scr1/users/leej39/Redding/assembly/megahit/S38_asm/final.contigs.fa; fi
+        
+Submitted job 68 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule megahit_unpaired:
+    input: /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S23_R1.fastq.gz
+    output: /scr1/users/leej39/Redding/assembly/megahit/S23_asm/final.contigs.fa
+    jobid: 58
+    wildcards: sample=S23
+
+
+        megahit -r /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S23_R1.fastq.gz -o /scr1/users/leej39/Redding/assembly/megahit/S23_asm --continue ||         if [ ! -a /scr1/users/leej39/Redding/assembly/megahit/S23_asm/final.contigs.fa ]; then touch /scr1/users/leej39/Redding/assembly/megahit/S23_asm/final.contigs.fa; fi
+        
+Submitted job 58 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule megahit_unpaired:
+    input: /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S26_R1.fastq.gz
+    output: /scr1/users/leej39/Redding/assembly/megahit/S26_asm/final.contigs.fa
+    jobid: 62
+    wildcards: sample=S26
+
+
+        megahit -r /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S26_R1.fastq.gz -o /scr1/users/leej39/Redding/assembly/megahit/S26_asm --continue ||         if [ ! -a /scr1/users/leej39/Redding/assembly/megahit/S26_asm/final.contigs.fa ]; then touch /scr1/users/leej39/Redding/assembly/megahit/S26_asm/final.contigs.fa; fi
+        
+Submitted job 62 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule megahit_unpaired:
+    input: /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S9_R1.fastq.gz
+    output: /scr1/users/leej39/Redding/assembly/megahit/S9_asm/final.contigs.fa
+    jobid: 72
+    wildcards: sample=S9
+
+
+        megahit -r /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S9_R1.fastq.gz -o /scr1/users/leej39/Redding/assembly/megahit/S9_asm --continue ||         if [ ! -a /scr1/users/leej39/Redding/assembly/megahit/S9_asm/final.contigs.fa ]; then touch /scr1/users/leej39/Redding/assembly/megahit/S9_asm/final.contigs.fa; fi
+        
+Submitted job 72 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule megahit_unpaired:
+    input: /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S15_R1.fastq.gz
+    output: /scr1/users/leej39/Redding/assembly/megahit/S15_asm/final.contigs.fa
+    jobid: 95
+    wildcards: sample=S15
+
+
+        megahit -r /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S15_R1.fastq.gz -o /scr1/users/leej39/Redding/assembly/megahit/S15_asm --continue ||         if [ ! -a /scr1/users/leej39/Redding/assembly/megahit/S15_asm/final.contigs.fa ]; then touch /scr1/users/leej39/Redding/assembly/megahit/S15_asm/final.contigs.fa; fi
+        
+Submitted job 95 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule megahit_unpaired:
+    input: /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S42_R1.fastq.gz
+    output: /scr1/users/leej39/Redding/assembly/megahit/S42_asm/final.contigs.fa
+    jobid: 53
+    wildcards: sample=S42
+
+
+        megahit -r /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S42_R1.fastq.gz -o /scr1/users/leej39/Redding/assembly/megahit/S42_asm --continue ||         if [ ! -a /scr1/users/leej39/Redding/assembly/megahit/S42_asm/final.contigs.fa ]; then touch /scr1/users/leej39/Redding/assembly/megahit/S42_asm/final.contigs.fa; fi
+        
+Submitted job 53 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule megahit_unpaired:
+    input: /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S33_R1.fastq.gz
+    output: /scr1/users/leej39/Redding/assembly/megahit/S33_asm/final.contigs.fa
+    jobid: 83
+    wildcards: sample=S33
+
+
+        megahit -r /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S33_R1.fastq.gz -o /scr1/users/leej39/Redding/assembly/megahit/S33_asm --continue ||         if [ ! -a /scr1/users/leej39/Redding/assembly/megahit/S33_asm/final.contigs.fa ]; then touch /scr1/users/leej39/Redding/assembly/megahit/S33_asm/final.contigs.fa; fi
+        
+Submitted job 83 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule megahit_unpaired:
+    input: /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S36_R1.fastq.gz
+    output: /scr1/users/leej39/Redding/assembly/megahit/S36_asm/final.contigs.fa
+    jobid: 76
+    wildcards: sample=S36
+
+
+        megahit -r /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S36_R1.fastq.gz -o /scr1/users/leej39/Redding/assembly/megahit/S36_asm --continue ||         if [ ! -a /scr1/users/leej39/Redding/assembly/megahit/S36_asm/final.contigs.fa ]; then touch /scr1/users/leej39/Redding/assembly/megahit/S36_asm/final.contigs.fa; fi
+        
+Submitted job 76 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule megahit_unpaired:
+    input: /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S44_R1.fastq.gz
+    output: /scr1/users/leej39/Redding/assembly/megahit/S44_asm/final.contigs.fa
+    jobid: 84
+    wildcards: sample=S44
+
+
+        megahit -r /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S44_R1.fastq.gz -o /scr1/users/leej39/Redding/assembly/megahit/S44_asm --continue ||         if [ ! -a /scr1/users/leej39/Redding/assembly/megahit/S44_asm/final.contigs.fa ]; then touch /scr1/users/leej39/Redding/assembly/megahit/S44_asm/final.contigs.fa; fi
+        
+Submitted job 84 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule megahit_unpaired:
+    input: /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S13_R1.fastq.gz
+    output: /scr1/users/leej39/Redding/assembly/megahit/S13_asm/final.contigs.fa
+    jobid: 50
+    wildcards: sample=S13
+
+
+        megahit -r /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S13_R1.fastq.gz -o /scr1/users/leej39/Redding/assembly/megahit/S13_asm --continue ||         if [ ! -a /scr1/users/leej39/Redding/assembly/megahit/S13_asm/final.contigs.fa ]; then touch /scr1/users/leej39/Redding/assembly/megahit/S13_asm/final.contigs.fa; fi
+        
+Submitted job 50 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule megahit_unpaired:
+    input: /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S43_R1.fastq.gz
+    output: /scr1/users/leej39/Redding/assembly/megahit/S43_asm/final.contigs.fa
+    jobid: 91
+    wildcards: sample=S43
+
+
+        megahit -r /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S43_R1.fastq.gz -o /scr1/users/leej39/Redding/assembly/megahit/S43_asm --continue ||         if [ ! -a /scr1/users/leej39/Redding/assembly/megahit/S43_asm/final.contigs.fa ]; then touch /scr1/users/leej39/Redding/assembly/megahit/S43_asm/final.contigs.fa; fi
+        
+Submitted job 91 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule megahit_unpaired:
+    input: /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S21_R1.fastq.gz
+    output: /scr1/users/leej39/Redding/assembly/megahit/S21_asm/final.contigs.fa
+    jobid: 73
+    wildcards: sample=S21
+
+
+        megahit -r /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S21_R1.fastq.gz -o /scr1/users/leej39/Redding/assembly/megahit/S21_asm --continue ||         if [ ! -a /scr1/users/leej39/Redding/assembly/megahit/S21_asm/final.contigs.fa ]; then touch /scr1/users/leej39/Redding/assembly/megahit/S21_asm/final.contigs.fa; fi
+        
+Submitted job 73 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule megahit_unpaired:
+    input: /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S6_R1.fastq.gz
+    output: /scr1/users/leej39/Redding/assembly/megahit/S6_asm/final.contigs.fa
+    jobid: 96
+    wildcards: sample=S6
+
+
+        megahit -r /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S6_R1.fastq.gz -o /scr1/users/leej39/Redding/assembly/megahit/S6_asm --continue ||         if [ ! -a /scr1/users/leej39/Redding/assembly/megahit/S6_asm/final.contigs.fa ]; then touch /scr1/users/leej39/Redding/assembly/megahit/S6_asm/final.contigs.fa; fi
+        
+Submitted job 96 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule megahit_unpaired:
+    input: /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S35_R1.fastq.gz
+    output: /scr1/users/leej39/Redding/assembly/megahit/S35_asm/final.contigs.fa
+    jobid: 49
+    wildcards: sample=S35
+
+
+        megahit -r /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S35_R1.fastq.gz -o /scr1/users/leej39/Redding/assembly/megahit/S35_asm --continue ||         if [ ! -a /scr1/users/leej39/Redding/assembly/megahit/S35_asm/final.contigs.fa ]; then touch /scr1/users/leej39/Redding/assembly/megahit/S35_asm/final.contigs.fa; fi
+        
+Submitted job 49 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule megahit_unpaired:
+    input: /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S16_R1.fastq.gz
+    output: /scr1/users/leej39/Redding/assembly/megahit/S16_asm/final.contigs.fa
+    jobid: 93
+    wildcards: sample=S16
+
+
+        megahit -r /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S16_R1.fastq.gz -o /scr1/users/leej39/Redding/assembly/megahit/S16_asm --continue ||         if [ ! -a /scr1/users/leej39/Redding/assembly/megahit/S16_asm/final.contigs.fa ]; then touch /scr1/users/leej39/Redding/assembly/megahit/S16_asm/final.contigs.fa; fi
+        
+Submitted job 93 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule megahit_unpaired:
+    input: /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S30_R1.fastq.gz
+    output: /scr1/users/leej39/Redding/assembly/megahit/S30_asm/final.contigs.fa
+    jobid: 67
+    wildcards: sample=S30
+
+
+        megahit -r /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S30_R1.fastq.gz -o /scr1/users/leej39/Redding/assembly/megahit/S30_asm --continue ||         if [ ! -a /scr1/users/leej39/Redding/assembly/megahit/S30_asm/final.contigs.fa ]; then touch /scr1/users/leej39/Redding/assembly/megahit/S30_asm/final.contigs.fa; fi
+        
+Submitted job 67 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule megahit_unpaired:
+    input: /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S45_R1.fastq.gz
+    output: /scr1/users/leej39/Redding/assembly/megahit/S45_asm/final.contigs.fa
+    jobid: 61
+    wildcards: sample=S45
+
+
+        megahit -r /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S45_R1.fastq.gz -o /scr1/users/leej39/Redding/assembly/megahit/S45_asm --continue ||         if [ ! -a /scr1/users/leej39/Redding/assembly/megahit/S45_asm/final.contigs.fa ]; then touch /scr1/users/leej39/Redding/assembly/megahit/S45_asm/final.contigs.fa; fi
+        
+Submitted job 61 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule megahit_unpaired:
+    input: /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S24_R1.fastq.gz
+    output: /scr1/users/leej39/Redding/assembly/megahit/S24_asm/final.contigs.fa
+    jobid: 90
+    wildcards: sample=S24
+
+
+        megahit -r /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S24_R1.fastq.gz -o /scr1/users/leej39/Redding/assembly/megahit/S24_asm --continue ||         if [ ! -a /scr1/users/leej39/Redding/assembly/megahit/S24_asm/final.contigs.fa ]; then touch /scr1/users/leej39/Redding/assembly/megahit/S24_asm/final.contigs.fa; fi
+        
+Submitted job 90 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule megahit_unpaired:
+    input: /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S3_R1.fastq.gz
+    output: /scr1/users/leej39/Redding/assembly/megahit/S3_asm/final.contigs.fa
+    jobid: 80
+    wildcards: sample=S3
+
+
+        megahit -r /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S3_R1.fastq.gz -o /scr1/users/leej39/Redding/assembly/megahit/S3_asm --continue ||         if [ ! -a /scr1/users/leej39/Redding/assembly/megahit/S3_asm/final.contigs.fa ]; then touch /scr1/users/leej39/Redding/assembly/megahit/S3_asm/final.contigs.fa; fi
+        
+Submitted job 80 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule megahit_unpaired:
+    input: /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S11_R1.fastq.gz
+    output: /scr1/users/leej39/Redding/assembly/megahit/S11_asm/final.contigs.fa
+    jobid: 71
+    wildcards: sample=S11
+
+
+        megahit -r /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S11_R1.fastq.gz -o /scr1/users/leej39/Redding/assembly/megahit/S11_asm --continue ||         if [ ! -a /scr1/users/leej39/Redding/assembly/megahit/S11_asm/final.contigs.fa ]; then touch /scr1/users/leej39/Redding/assembly/megahit/S11_asm/final.contigs.fa; fi
+        
+Submitted job 71 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule megahit_unpaired:
+    input: /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S17_R1.fastq.gz
+    output: /scr1/users/leej39/Redding/assembly/megahit/S17_asm/final.contigs.fa
+    jobid: 81
+    wildcards: sample=S17
+
+
+        megahit -r /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S17_R1.fastq.gz -o /scr1/users/leej39/Redding/assembly/megahit/S17_asm --continue ||         if [ ! -a /scr1/users/leej39/Redding/assembly/megahit/S17_asm/final.contigs.fa ]; then touch /scr1/users/leej39/Redding/assembly/megahit/S17_asm/final.contigs.fa; fi
+        
+Submitted job 81 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule megahit_unpaired:
+    input: /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S28_R1.fastq.gz
+    output: /scr1/users/leej39/Redding/assembly/megahit/S28_asm/final.contigs.fa
+    jobid: 86
+    wildcards: sample=S28
+
+
+        megahit -r /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S28_R1.fastq.gz -o /scr1/users/leej39/Redding/assembly/megahit/S28_asm --continue ||         if [ ! -a /scr1/users/leej39/Redding/assembly/megahit/S28_asm/final.contigs.fa ]; then touch /scr1/users/leej39/Redding/assembly/megahit/S28_asm/final.contigs.fa; fi
+        
+Submitted job 86 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule megahit_unpaired:
+    input: /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S2_R1.fastq.gz
+    output: /scr1/users/leej39/Redding/assembly/megahit/S2_asm/final.contigs.fa
+    jobid: 57
+    wildcards: sample=S2
+
+
+        megahit -r /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S2_R1.fastq.gz -o /scr1/users/leej39/Redding/assembly/megahit/S2_asm --continue ||         if [ ! -a /scr1/users/leej39/Redding/assembly/megahit/S2_asm/final.contigs.fa ]; then touch /scr1/users/leej39/Redding/assembly/megahit/S2_asm/final.contigs.fa; fi
+        
+Submitted job 57 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule megahit_unpaired:
+    input: /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S10_R1.fastq.gz
+    output: /scr1/users/leej39/Redding/assembly/megahit/S10_asm/final.contigs.fa
+    jobid: 51
+    wildcards: sample=S10
+
+
+        megahit -r /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S10_R1.fastq.gz -o /scr1/users/leej39/Redding/assembly/megahit/S10_asm --continue ||         if [ ! -a /scr1/users/leej39/Redding/assembly/megahit/S10_asm/final.contigs.fa ]; then touch /scr1/users/leej39/Redding/assembly/megahit/S10_asm/final.contigs.fa; fi
+        
+Submitted job 51 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule megahit_unpaired:
+    input: /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S34_R1.fastq.gz
+    output: /scr1/users/leej39/Redding/assembly/megahit/S34_asm/final.contigs.fa
+    jobid: 94
+    wildcards: sample=S34
+
+
+        megahit -r /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S34_R1.fastq.gz -o /scr1/users/leej39/Redding/assembly/megahit/S34_asm --continue ||         if [ ! -a /scr1/users/leej39/Redding/assembly/megahit/S34_asm/final.contigs.fa ]; then touch /scr1/users/leej39/Redding/assembly/megahit/S34_asm/final.contigs.fa; fi
+        
+Submitted job 94 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule megahit_unpaired:
+    input: /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S19_R1.fastq.gz
+    output: /scr1/users/leej39/Redding/assembly/megahit/S19_asm/final.contigs.fa
+    jobid: 78
+    wildcards: sample=S19
+
+
+        megahit -r /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S19_R1.fastq.gz -o /scr1/users/leej39/Redding/assembly/megahit/S19_asm --continue ||         if [ ! -a /scr1/users/leej39/Redding/assembly/megahit/S19_asm/final.contigs.fa ]; then touch /scr1/users/leej39/Redding/assembly/megahit/S19_asm/final.contigs.fa; fi
+        
+Submitted job 78 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule megahit_unpaired:
+    input: /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S31_R1.fastq.gz
+    output: /scr1/users/leej39/Redding/assembly/megahit/S31_asm/final.contigs.fa
+    jobid: 79
+    wildcards: sample=S31
+
+
+        megahit -r /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S31_R1.fastq.gz -o /scr1/users/leej39/Redding/assembly/megahit/S31_asm --continue ||         if [ ! -a /scr1/users/leej39/Redding/assembly/megahit/S31_asm/final.contigs.fa ]; then touch /scr1/users/leej39/Redding/assembly/megahit/S31_asm/final.contigs.fa; fi
+        
+Submitted job 79 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule megahit_unpaired:
+    input: /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S29_R1.fastq.gz
+    output: /scr1/users/leej39/Redding/assembly/megahit/S29_asm/final.contigs.fa
+    jobid: 75
+    wildcards: sample=S29
+
+
+        megahit -r /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S29_R1.fastq.gz -o /scr1/users/leej39/Redding/assembly/megahit/S29_asm --continue ||         if [ ! -a /scr1/users/leej39/Redding/assembly/megahit/S29_asm/final.contigs.fa ]; then touch /scr1/users/leej39/Redding/assembly/megahit/S29_asm/final.contigs.fa; fi
+        
+Submitted job 75 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule megahit_unpaired:
+    input: /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S47_R1.fastq.gz
+    output: /scr1/users/leej39/Redding/assembly/megahit/S47_asm/final.contigs.fa
+    jobid: 65
+    wildcards: sample=S47
+
+
+        megahit -r /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S47_R1.fastq.gz -o /scr1/users/leej39/Redding/assembly/megahit/S47_asm --continue ||         if [ ! -a /scr1/users/leej39/Redding/assembly/megahit/S47_asm/final.contigs.fa ]; then touch /scr1/users/leej39/Redding/assembly/megahit/S47_asm/final.contigs.fa; fi
+        
+Submitted job 65 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule megahit_unpaired:
+    input: /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S12_R1.fastq.gz
+    output: /scr1/users/leej39/Redding/assembly/megahit/S12_asm/final.contigs.fa
+    jobid: 74
+    wildcards: sample=S12
+
+
+        megahit -r /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S12_R1.fastq.gz -o /scr1/users/leej39/Redding/assembly/megahit/S12_asm --continue ||         if [ ! -a /scr1/users/leej39/Redding/assembly/megahit/S12_asm/final.contigs.fa ]; then touch /scr1/users/leej39/Redding/assembly/megahit/S12_asm/final.contigs.fa; fi
+        
+Submitted job 74 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule megahit_unpaired:
+    input: /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S7_R1.fastq.gz
+    output: /scr1/users/leej39/Redding/assembly/megahit/S7_asm/final.contigs.fa
+    jobid: 92
+    wildcards: sample=S7
+
+
+        megahit -r /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S7_R1.fastq.gz -o /scr1/users/leej39/Redding/assembly/megahit/S7_asm --continue ||         if [ ! -a /scr1/users/leej39/Redding/assembly/megahit/S7_asm/final.contigs.fa ]; then touch /scr1/users/leej39/Redding/assembly/megahit/S7_asm/final.contigs.fa; fi
+        
+Submitted job 92 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule megahit_unpaired:
+    input: /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S46_R1.fastq.gz
+    output: /scr1/users/leej39/Redding/assembly/megahit/S46_asm/final.contigs.fa
+    jobid: 64
+    wildcards: sample=S46
+
+
+        megahit -r /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S46_R1.fastq.gz -o /scr1/users/leej39/Redding/assembly/megahit/S46_asm --continue ||         if [ ! -a /scr1/users/leej39/Redding/assembly/megahit/S46_asm/final.contigs.fa ]; then touch /scr1/users/leej39/Redding/assembly/megahit/S46_asm/final.contigs.fa; fi
+        
+Submitted job 64 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule megahit_unpaired:
+    input: /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S1_R1.fastq.gz
+    output: /scr1/users/leej39/Redding/assembly/megahit/S1_asm/final.contigs.fa
+    jobid: 85
+    wildcards: sample=S1
+
+
+        megahit -r /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S1_R1.fastq.gz -o /scr1/users/leej39/Redding/assembly/megahit/S1_asm --continue ||         if [ ! -a /scr1/users/leej39/Redding/assembly/megahit/S1_asm/final.contigs.fa ]; then touch /scr1/users/leej39/Redding/assembly/megahit/S1_asm/final.contigs.fa; fi
+        
+Submitted job 85 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule megahit_unpaired:
+    input: /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S40_R1.fastq.gz
+    output: /scr1/users/leej39/Redding/assembly/megahit/S40_asm/final.contigs.fa
+    jobid: 89
+    wildcards: sample=S40
+
+
+        megahit -r /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S40_R1.fastq.gz -o /scr1/users/leej39/Redding/assembly/megahit/S40_asm --continue ||         if [ ! -a /scr1/users/leej39/Redding/assembly/megahit/S40_asm/final.contigs.fa ]; then touch /scr1/users/leej39/Redding/assembly/megahit/S40_asm/final.contigs.fa; fi
+        
+Submitted job 89 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule megahit_unpaired:
+    input: /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S20_R1.fastq.gz
+    output: /scr1/users/leej39/Redding/assembly/megahit/S20_asm/final.contigs.fa
+    jobid: 82
+    wildcards: sample=S20
+
+
+        megahit -r /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S20_R1.fastq.gz -o /scr1/users/leej39/Redding/assembly/megahit/S20_asm --continue ||         if [ ! -a /scr1/users/leej39/Redding/assembly/megahit/S20_asm/final.contigs.fa ]; then touch /scr1/users/leej39/Redding/assembly/megahit/S20_asm/final.contigs.fa; fi
+        
+Submitted job 82 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule megahit_unpaired:
+    input: /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S32_R1.fastq.gz
+    output: /scr1/users/leej39/Redding/assembly/megahit/S32_asm/final.contigs.fa
+    jobid: 63
+    wildcards: sample=S32
+
+
+        megahit -r /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S32_R1.fastq.gz -o /scr1/users/leej39/Redding/assembly/megahit/S32_asm --continue ||         if [ ! -a /scr1/users/leej39/Redding/assembly/megahit/S32_asm/final.contigs.fa ]; then touch /scr1/users/leej39/Redding/assembly/megahit/S32_asm/final.contigs.fa; fi
+        
+Submitted job 63 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule megahit_unpaired:
+    input: /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S37_R1.fastq.gz
+    output: /scr1/users/leej39/Redding/assembly/megahit/S37_asm/final.contigs.fa
+    jobid: 77
+    wildcards: sample=S37
+
+
+        megahit -r /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S37_R1.fastq.gz -o /scr1/users/leej39/Redding/assembly/megahit/S37_asm --continue ||         if [ ! -a /scr1/users/leej39/Redding/assembly/megahit/S37_asm/final.contigs.fa ]; then touch /scr1/users/leej39/Redding/assembly/megahit/S37_asm/final.contigs.fa; fi
+        
+Submitted job 77 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule megahit_unpaired:
+    input: /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S25_R1.fastq.gz
+    output: /scr1/users/leej39/Redding/assembly/megahit/S25_asm/final.contigs.fa
+    jobid: 87
+    wildcards: sample=S25
+
+
+        megahit -r /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S25_R1.fastq.gz -o /scr1/users/leej39/Redding/assembly/megahit/S25_asm --continue ||         if [ ! -a /scr1/users/leej39/Redding/assembly/megahit/S25_asm/final.contigs.fa ]; then touch /scr1/users/leej39/Redding/assembly/megahit/S25_asm/final.contigs.fa; fi
+        
+Submitted job 87 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule megahit_unpaired:
+    input: /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S14_R1.fastq.gz
+    output: /scr1/users/leej39/Redding/assembly/megahit/S14_asm/final.contigs.fa
+    jobid: 66
+    wildcards: sample=S14
+
+
+        megahit -r /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S14_R1.fastq.gz -o /scr1/users/leej39/Redding/assembly/megahit/S14_asm --continue ||         if [ ! -a /scr1/users/leej39/Redding/assembly/megahit/S14_asm/final.contigs.fa ]; then touch /scr1/users/leej39/Redding/assembly/megahit/S14_asm/final.contigs.fa; fi
+        
+Submitted job 66 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule megahit_unpaired:
+    input: /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S22_R1.fastq.gz
+    output: /scr1/users/leej39/Redding/assembly/megahit/S22_asm/final.contigs.fa
+    jobid: 59
+    wildcards: sample=S22
+
+
+        megahit -r /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S22_R1.fastq.gz -o /scr1/users/leej39/Redding/assembly/megahit/S22_asm --continue ||         if [ ! -a /scr1/users/leej39/Redding/assembly/megahit/S22_asm/final.contigs.fa ]; then touch /scr1/users/leej39/Redding/assembly/megahit/S22_asm/final.contigs.fa; fi
+        
+Submitted job 59 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule megahit_unpaired:
+    input: /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S18_R1.fastq.gz
+    output: /scr1/users/leej39/Redding/assembly/megahit/S18_asm/final.contigs.fa
+    jobid: 55
+    wildcards: sample=S18
+
+
+        megahit -r /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S18_R1.fastq.gz -o /scr1/users/leej39/Redding/assembly/megahit/S18_asm --continue ||         if [ ! -a /scr1/users/leej39/Redding/assembly/megahit/S18_asm/final.contigs.fa ]; then touch /scr1/users/leej39/Redding/assembly/megahit/S18_asm/final.contigs.fa; fi
+        
+Submitted job 55 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule megahit_unpaired:
+    input: /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S5_R1.fastq.gz
+    output: /scr1/users/leej39/Redding/assembly/megahit/S5_asm/final.contigs.fa
+    jobid: 88
+    wildcards: sample=S5
+
+
+        megahit -r /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S5_R1.fastq.gz -o /scr1/users/leej39/Redding/assembly/megahit/S5_asm --continue ||         if [ ! -a /scr1/users/leej39/Redding/assembly/megahit/S5_asm/final.contigs.fa ]; then touch /scr1/users/leej39/Redding/assembly/megahit/S5_asm/final.contigs.fa; fi
+        
+Submitted job 88 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule megahit_unpaired:
+    input: /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S39_R1.fastq.gz
+    output: /scr1/users/leej39/Redding/assembly/megahit/S39_asm/final.contigs.fa
+    jobid: 70
+    wildcards: sample=S39
+
+
+        megahit -r /scr1/users/leej39/Redding/Redding_Cleaned_Data/concatenated_fastq/S39_R1.fastq.gz -o /scr1/users/leej39/Redding/assembly/megahit/S39_asm --continue ||         if [ ! -a /scr1/users/leej39/Redding/assembly/megahit/S39_asm/final.contigs.fa ]; then touch /scr1/users/leej39/Redding/assembly/megahit/S39_asm/final.contigs.fa; fi
+        
+Submitted job 70 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+Finished job 62.
+1 of 97 steps (1%) done
+
+rule final_filter:
+    input: /scr1/users/leej39/Redding/assembly/megahit/S26_asm/final.contigs.fa
+    output: /scr1/users/leej39/Redding/assembly/contigs/S26-contigs.fa
+    log: /scr1/users/leej39/Redding/assembly/log/vsearch/S26.log
+    jobid: 14
+    wildcards: sample=S26
+
+Submitted job 14 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+Waiting at most 90 seconds for missing files.
+Finished job 14.
+2 of 97 steps (2%) done
+Finished job 50.
+3 of 97 steps (3%) done
+
+rule final_filter:
+    input: /scr1/users/leej39/Redding/assembly/megahit/S13_asm/final.contigs.fa
+    output: /scr1/users/leej39/Redding/assembly/contigs/S13-contigs.fa
+    log: /scr1/users/leej39/Redding/assembly/log/vsearch/S13.log
+    jobid: 2
+    wildcards: sample=S13
+
+Submitted job 2 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+Finished job 64.
+4 of 97 steps (4%) done
+
+rule final_filter:
+    input: /scr1/users/leej39/Redding/assembly/megahit/S46_asm/final.contigs.fa
+    output: /scr1/users/leej39/Redding/assembly/contigs/S46-contigs.fa
+    log: /scr1/users/leej39/Redding/assembly/log/vsearch/S46.log
+    jobid: 16
+    wildcards: sample=S46
+
+Submitted job 16 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+Waiting at most 90 seconds for missing files.
+Finished job 2.
+5 of 97 steps (5%) done
+Finished job 16.
+6 of 97 steps (6%) done
+Finished job 52.
+7 of 97 steps (7%) done
+
+rule final_filter:
+    input: /scr1/users/leej39/Redding/assembly/megahit/S48_asm/final.contigs.fa
+    output: /scr1/users/leej39/Redding/assembly/contigs/S48-contigs.fa
+    log: /scr1/users/leej39/Redding/assembly/log/vsearch/S48.log
+    jobid: 4
+    wildcards: sample=S48
+
+Submitted job 4 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+Finished job 92.
+8 of 97 steps (8%) done
+
+rule final_filter:
+    input: /scr1/users/leej39/Redding/assembly/megahit/S7_asm/final.contigs.fa
+    output: /scr1/users/leej39/Redding/assembly/contigs/S7-contigs.fa
+    log: /scr1/users/leej39/Redding/assembly/log/vsearch/S7.log
+    jobid: 44
+    wildcards: sample=S7
+
+Submitted job 44 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+Finished job 4.
+9 of 97 steps (9%) done
+Finished job 44.
+10 of 97 steps (10%) done
+Finished job 65.
+11 of 97 steps (11%) done
+
+rule final_filter:
+    input: /scr1/users/leej39/Redding/assembly/megahit/S47_asm/final.contigs.fa
+    output: /scr1/users/leej39/Redding/assembly/contigs/S47-contigs.fa
+    log: /scr1/users/leej39/Redding/assembly/log/vsearch/S47.log
+    jobid: 17
+    wildcards: sample=S47
+
+Submitted job 17 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+Finished job 17.
+12 of 97 steps (12%) done
+Finished job 79.
+13 of 97 steps (13%) done
+
+rule final_filter:
+    input: /scr1/users/leej39/Redding/assembly/megahit/S31_asm/final.contigs.fa
+    output: /scr1/users/leej39/Redding/assembly/contigs/S31-contigs.fa
+    log: /scr1/users/leej39/Redding/assembly/log/vsearch/S31.log
+    jobid: 31
+    wildcards: sample=S31
+
+Submitted job 31 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+Finished job 63.
+14 of 97 steps (14%) done
+
+rule final_filter:
+    input: /scr1/users/leej39/Redding/assembly/megahit/S32_asm/final.contigs.fa
+    output: /scr1/users/leej39/Redding/assembly/contigs/S32-contigs.fa
+    log: /scr1/users/leej39/Redding/assembly/log/vsearch/S32.log
+    jobid: 15
+    wildcards: sample=S32
+
+Submitted job 15 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+Finished job 76.
+15 of 97 steps (15%) done
+
+rule final_filter:
+    input: /scr1/users/leej39/Redding/assembly/megahit/S36_asm/final.contigs.fa
+    output: /scr1/users/leej39/Redding/assembly/contigs/S36-contigs.fa
+    log: /scr1/users/leej39/Redding/assembly/log/vsearch/S36.log
+    jobid: 28
+    wildcards: sample=S36
+
+Submitted job 28 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+Finished job 77.
+16 of 97 steps (16%) done
+
+rule final_filter:
+    input: /scr1/users/leej39/Redding/assembly/megahit/S37_asm/final.contigs.fa
+    output: /scr1/users/leej39/Redding/assembly/contigs/S37-contigs.fa
+    log: /scr1/users/leej39/Redding/assembly/log/vsearch/S37.log
+    jobid: 29
+    wildcards: sample=S37
+
+Submitted job 29 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+Waiting at most 90 seconds for missing files.
+Finished job 28.
+17 of 97 steps (18%) done
+Finished job 29.
+18 of 97 steps (19%) done
+Finished job 15.
+19 of 97 steps (20%) done
+Finished job 31.
+20 of 97 steps (21%) done
+Finished job 56.
+21 of 97 steps (22%) done
+
+rule final_filter:
+    input: /scr1/users/leej39/Redding/assembly/megahit/S41_asm/final.contigs.fa
+    output: /scr1/users/leej39/Redding/assembly/contigs/S41-contigs.fa
+    log: /scr1/users/leej39/Redding/assembly/log/vsearch/S41.log
+    jobid: 8
+    wildcards: sample=S41
+
+Submitted job 8 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+Finished job 83.
+22 of 97 steps (23%) done
+
+rule final_filter:
+    input: /scr1/users/leej39/Redding/assembly/megahit/S33_asm/final.contigs.fa
+    output: /scr1/users/leej39/Redding/assembly/contigs/S33-contigs.fa
+    log: /scr1/users/leej39/Redding/assembly/log/vsearch/S33.log
+    jobid: 35
+    wildcards: sample=S33
+
+Submitted job 35 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+Finished job 71.
+23 of 97 steps (24%) done
+
+rule final_filter:
+    input: /scr1/users/leej39/Redding/assembly/megahit/S11_asm/final.contigs.fa
+    output: /scr1/users/leej39/Redding/assembly/contigs/S11-contigs.fa
+    log: /scr1/users/leej39/Redding/assembly/log/vsearch/S11.log
+    jobid: 23
+    wildcards: sample=S11
+
+Submitted job 23 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+Finished job 84.
+24 of 97 steps (25%) done
+
+rule final_filter:
+    input: /scr1/users/leej39/Redding/assembly/megahit/S44_asm/final.contigs.fa
+    output: /scr1/users/leej39/Redding/assembly/contigs/S44-contigs.fa
+    log: /scr1/users/leej39/Redding/assembly/log/vsearch/S44.log
+    jobid: 36
+    wildcards: sample=S44
+
+Finished job 73.
+25 of 97 steps (26%) done
+Finished job 49.
+26 of 97 steps (27%) done
+Submitted job 36 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule final_filter:
+    input: /scr1/users/leej39/Redding/assembly/megahit/S35_asm/final.contigs.fa
+    output: /scr1/users/leej39/Redding/assembly/contigs/S35-contigs.fa
+    log: /scr1/users/leej39/Redding/assembly/log/vsearch/S35.log
+    jobid: 1
+    wildcards: sample=S35
+
+Submitted job 1 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule final_filter:
+    input: /scr1/users/leej39/Redding/assembly/megahit/S21_asm/final.contigs.fa
+    output: /scr1/users/leej39/Redding/assembly/contigs/S21-contigs.fa
+    log: /scr1/users/leej39/Redding/assembly/log/vsearch/S21.log
+    jobid: 25
+    wildcards: sample=S21
+
+Submitted job 25 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+Finished job 8.
+27 of 97 steps (28%) done
+Finished job 58.
+28 of 97 steps (29%) done
+
+rule final_filter:
+    input: /scr1/users/leej39/Redding/assembly/megahit/S23_asm/final.contigs.fa
+    output: /scr1/users/leej39/Redding/assembly/contigs/S23-contigs.fa
+    log: /scr1/users/leej39/Redding/assembly/log/vsearch/S23.log
+    jobid: 10
+    wildcards: sample=S23
+
+Submitted job 10 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+Finished job 86.
+29 of 97 steps (30%) done
+
+rule final_filter:
+    input: /scr1/users/leej39/Redding/assembly/megahit/S28_asm/final.contigs.fa
+    output: /scr1/users/leej39/Redding/assembly/contigs/S28-contigs.fa
+    log: /scr1/users/leej39/Redding/assembly/log/vsearch/S28.log
+    jobid: 38
+    wildcards: sample=S28
+
+Submitted job 38 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+Finished job 36.
+30 of 97 steps (31%) done
+Finished job 1.
+31 of 97 steps (32%) done
+Finished job 25.
+32 of 97 steps (33%) done
+Finished job 35.
+33 of 97 steps (34%) done
+Finished job 23.
+34 of 97 steps (35%) done
+Finished job 10.
+35 of 97 steps (36%) done
+Finished job 38.
+36 of 97 steps (37%) done
+Finished job 67.
+37 of 97 steps (38%) done
+
+rule final_filter:
+    input: /scr1/users/leej39/Redding/assembly/megahit/S30_asm/final.contigs.fa
+    output: /scr1/users/leej39/Redding/assembly/contigs/S30-contigs.fa
+    log: /scr1/users/leej39/Redding/assembly/log/vsearch/S30.log
+    jobid: 19
+    wildcards: sample=S30
+
+Submitted job 19 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+Finished job 19.
+38 of 97 steps (39%) done
+Finished job 59.
+39 of 97 steps (40%) done
+
+rule final_filter:
+    input: /scr1/users/leej39/Redding/assembly/megahit/S22_asm/final.contigs.fa
+    output: /scr1/users/leej39/Redding/assembly/contigs/S22-contigs.fa
+    log: /scr1/users/leej39/Redding/assembly/log/vsearch/S22.log
+    jobid: 11
+    wildcards: sample=S22
+
+Submitted job 11 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+Finished job 78.
+40 of 97 steps (41%) done
+
+rule final_filter:
+    input: /scr1/users/leej39/Redding/assembly/megahit/S19_asm/final.contigs.fa
+    output: /scr1/users/leej39/Redding/assembly/contigs/S19-contigs.fa
+    log: /scr1/users/leej39/Redding/assembly/log/vsearch/S19.log
+    jobid: 30
+    wildcards: sample=S19
+
+Submitted job 30 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+Finished job 82.
+41 of 97 steps (42%) done
+
+rule final_filter:
+    input: /scr1/users/leej39/Redding/assembly/megahit/S20_asm/final.contigs.fa
+    output: /scr1/users/leej39/Redding/assembly/contigs/S20-contigs.fa
+    log: /scr1/users/leej39/Redding/assembly/log/vsearch/S20.log
+    jobid: 34
+    wildcards: sample=S20
+
+Finished job 87.
+42 of 97 steps (43%) done
+Finished job 55.
+43 of 97 steps (44%) done
+Finished job 88.
+44 of 97 steps (45%) done
+Finished job 11.
+45 of 97 steps (46%) done
+Submitted job 34 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule final_filter:
+    input: /scr1/users/leej39/Redding/assembly/megahit/S25_asm/final.contigs.fa
+    output: /scr1/users/leej39/Redding/assembly/contigs/S25-contigs.fa
+    log: /scr1/users/leej39/Redding/assembly/log/vsearch/S25.log
+    jobid: 39
+    wildcards: sample=S25
+
+Submitted job 39 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule final_filter:
+    input: /scr1/users/leej39/Redding/assembly/megahit/S18_asm/final.contigs.fa
+    output: /scr1/users/leej39/Redding/assembly/contigs/S18-contigs.fa
+    log: /scr1/users/leej39/Redding/assembly/log/vsearch/S18.log
+    jobid: 7
+    wildcards: sample=S18
+
+Submitted job 7 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule final_filter:
+    input: /scr1/users/leej39/Redding/assembly/megahit/S5_asm/final.contigs.fa
+    output: /scr1/users/leej39/Redding/assembly/contigs/S5-contigs.fa
+    log: /scr1/users/leej39/Redding/assembly/log/vsearch/S5.log
+    jobid: 40
+    wildcards: sample=S5
+
+Submitted job 40 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+Waiting at most 90 seconds for missing files.
+Finished job 30.
+46 of 97 steps (47%) done
+Finished job 94.
+47 of 97 steps (48%) done
+
+rule final_filter:
+    input: /scr1/users/leej39/Redding/assembly/megahit/S34_asm/final.contigs.fa
+    output: /scr1/users/leej39/Redding/assembly/contigs/S34-contigs.fa
+    log: /scr1/users/leej39/Redding/assembly/log/vsearch/S34.log
+    jobid: 46
+    wildcards: sample=S34
+
+Finished job 54.
+48 of 97 steps (49%) done
+Finished job 68.
+49 of 97 steps (51%) done
+Submitted job 46 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule final_filter:
+    input: /scr1/users/leej39/Redding/assembly/megahit/S4_asm/final.contigs.fa
+    output: /scr1/users/leej39/Redding/assembly/contigs/S4-contigs.fa
+    log: /scr1/users/leej39/Redding/assembly/log/vsearch/S4.log
+    jobid: 6
+    wildcards: sample=S4
+
+Submitted job 6 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule final_filter:
+    input: /scr1/users/leej39/Redding/assembly/megahit/S38_asm/final.contigs.fa
+    output: /scr1/users/leej39/Redding/assembly/contigs/S38-contigs.fa
+    log: /scr1/users/leej39/Redding/assembly/log/vsearch/S38.log
+    jobid: 20
+    wildcards: sample=S38
+
+Submitted job 20 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+Finished job 80.
+50 of 97 steps (52%) done
+
+rule final_filter:
+    input: /scr1/users/leej39/Redding/assembly/megahit/S3_asm/final.contigs.fa
+    output: /scr1/users/leej39/Redding/assembly/contigs/S3-contigs.fa
+    log: /scr1/users/leej39/Redding/assembly/log/vsearch/S3.log
+    jobid: 32
+    wildcards: sample=S3
+
+Submitted job 32 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+Finished job 89.
+51 of 97 steps (53%) done
+
+rule final_filter:
+    input: /scr1/users/leej39/Redding/assembly/megahit/S40_asm/final.contigs.fa
+    output: /scr1/users/leej39/Redding/assembly/contigs/S40-contigs.fa
+    log: /scr1/users/leej39/Redding/assembly/log/vsearch/S40.log
+    jobid: 41
+    wildcards: sample=S40
+
+Finished job 70.
+52 of 97 steps (54%) done
+Finished job 34.
+53 of 97 steps (55%) done
+Finished job 39.
+54 of 97 steps (56%) done
+Finished job 7.
+55 of 97 steps (57%) done
+Finished job 40.
+56 of 97 steps (58%) done
+Submitted job 41 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule final_filter:
+    input: /scr1/users/leej39/Redding/assembly/megahit/S39_asm/final.contigs.fa
+    output: /scr1/users/leej39/Redding/assembly/contigs/S39-contigs.fa
+    log: /scr1/users/leej39/Redding/assembly/log/vsearch/S39.log
+    jobid: 22
+    wildcards: sample=S39
+
+Submitted job 22 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+Waiting at most 90 seconds for missing files.
+Finished job 46.
+57 of 97 steps (59%) done
+Finished job 6.
+58 of 97 steps (60%) done
+Finished job 20.
+59 of 97 steps (61%) done
+Finished job 32.
+60 of 97 steps (62%) done
+Finished job 69.
+61 of 97 steps (63%) done
+
+rule final_filter:
+    input: /scr1/users/leej39/Redding/assembly/megahit/S27_asm/final.contigs.fa
+    output: /scr1/users/leej39/Redding/assembly/contigs/S27-contigs.fa
+    log: /scr1/users/leej39/Redding/assembly/log/vsearch/S27.log
+    jobid: 21
+    wildcards: sample=S27
+
+Submitted job 21 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+Finished job 53.
+62 of 97 steps (64%) done
+
+rule final_filter:
+    input: /scr1/users/leej39/Redding/assembly/megahit/S42_asm/final.contigs.fa
+    output: /scr1/users/leej39/Redding/assembly/contigs/S42-contigs.fa
+    log: /scr1/users/leej39/Redding/assembly/log/vsearch/S42.log
+    jobid: 5
+    wildcards: sample=S42
+
+Finished job 93.
+63 of 97 steps (65%) done
+Finished job 61.
+64 of 97 steps (66%) done
+Finished job 57.
+65 of 97 steps (67%) done
+Finished job 85.
+66 of 97 steps (68%) done
+Submitted job 5 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule final_filter:
+    input: /scr1/users/leej39/Redding/assembly/megahit/S45_asm/final.contigs.fa
+    output: /scr1/users/leej39/Redding/assembly/contigs/S45-contigs.fa
+    log: /scr1/users/leej39/Redding/assembly/log/vsearch/S45.log
+    jobid: 13
+    wildcards: sample=S45
+
+Submitted job 13 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule final_filter:
+    input: /scr1/users/leej39/Redding/assembly/megahit/S16_asm/final.contigs.fa
+    output: /scr1/users/leej39/Redding/assembly/contigs/S16-contigs.fa
+    log: /scr1/users/leej39/Redding/assembly/log/vsearch/S16.log
+    jobid: 45
+    wildcards: sample=S16
+
+Finished job 66.
+67 of 97 steps (69%) done
+Finished job 41.
+68 of 97 steps (70%) done
+Finished job 22.
+69 of 97 steps (71%) done
+Submitted job 45 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule final_filter:
+    input: /scr1/users/leej39/Redding/assembly/megahit/S2_asm/final.contigs.fa
+    output: /scr1/users/leej39/Redding/assembly/contigs/S2-contigs.fa
+    log: /scr1/users/leej39/Redding/assembly/log/vsearch/S2.log
+    jobid: 9
+    wildcards: sample=S2
+
+Submitted job 9 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule final_filter:
+    input: /scr1/users/leej39/Redding/assembly/megahit/S1_asm/final.contigs.fa
+    output: /scr1/users/leej39/Redding/assembly/contigs/S1-contigs.fa
+    log: /scr1/users/leej39/Redding/assembly/log/vsearch/S1.log
+    jobid: 37
+    wildcards: sample=S1
+
+Submitted job 37 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule final_filter:
+    input: /scr1/users/leej39/Redding/assembly/megahit/S14_asm/final.contigs.fa
+    output: /scr1/users/leej39/Redding/assembly/contigs/S14-contigs.fa
+    log: /scr1/users/leej39/Redding/assembly/log/vsearch/S14.log
+    jobid: 18
+    wildcards: sample=S14
+
+Submitted job 18 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+Waiting at most 90 seconds for missing files.
+Finished job 21.
+70 of 97 steps (72%) done
+Finished job 5.
+71 of 97 steps (73%) done
+Finished job 13.
+72 of 97 steps (74%) done
+Finished job 74.
+73 of 97 steps (75%) done
+
+rule final_filter:
+    input: /scr1/users/leej39/Redding/assembly/megahit/S12_asm/final.contigs.fa
+    output: /scr1/users/leej39/Redding/assembly/contigs/S12-contigs.fa
+    log: /scr1/users/leej39/Redding/assembly/log/vsearch/S12.log
+    jobid: 26
+    wildcards: sample=S12
+
+Submitted job 26 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+Finished job 45.
+74 of 97 steps (76%) done
+Finished job 9.
+75 of 97 steps (77%) done
+Finished job 37.
+76 of 97 steps (78%) done
+Finished job 18.
+77 of 97 steps (79%) done
+Finished job 81.
+78 of 97 steps (80%) done
+
+rule final_filter:
+    input: /scr1/users/leej39/Redding/assembly/megahit/S17_asm/final.contigs.fa
+    output: /scr1/users/leej39/Redding/assembly/contigs/S17-contigs.fa
+    log: /scr1/users/leej39/Redding/assembly/log/vsearch/S17.log
+    jobid: 33
+    wildcards: sample=S17
+
+Submitted job 33 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+Finished job 26.
+79 of 97 steps (81%) done
+Finished job 60.
+80 of 97 steps (82%) done
+
+rule final_filter:
+    input: /scr1/users/leej39/Redding/assembly/megahit/S8_asm/final.contigs.fa
+    output: /scr1/users/leej39/Redding/assembly/contigs/S8-contigs.fa
+    log: /scr1/users/leej39/Redding/assembly/log/vsearch/S8.log
+    jobid: 12
+    wildcards: sample=S8
+
+Finished job 96.
+81 of 97 steps (84%) done
+Submitted job 12 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule final_filter:
+    input: /scr1/users/leej39/Redding/assembly/megahit/S6_asm/final.contigs.fa
+    output: /scr1/users/leej39/Redding/assembly/contigs/S6-contigs.fa
+    log: /scr1/users/leej39/Redding/assembly/log/vsearch/S6.log
+    jobid: 48
+    wildcards: sample=S6
+
+Submitted job 48 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+Finished job 75.
+82 of 97 steps (85%) done
+
+rule final_filter:
+    input: /scr1/users/leej39/Redding/assembly/megahit/S29_asm/final.contigs.fa
+    output: /scr1/users/leej39/Redding/assembly/contigs/S29-contigs.fa
+    log: /scr1/users/leej39/Redding/assembly/log/vsearch/S29.log
+    jobid: 27
+    wildcards: sample=S29
+
+Finished job 33.
+83 of 97 steps (86%) done
+Finished job 12.
+84 of 97 steps (87%) done
+Finished job 48.
+85 of 97 steps (88%) done
+Submitted job 27 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+Finished job 72.
+86 of 97 steps (89%) done
+
+rule final_filter:
+    input: /scr1/users/leej39/Redding/assembly/megahit/S9_asm/final.contigs.fa
+    output: /scr1/users/leej39/Redding/assembly/contigs/S9-contigs.fa
+    log: /scr1/users/leej39/Redding/assembly/log/vsearch/S9.log
+    jobid: 24
+    wildcards: sample=S9
+
+Finished job 90.
+87 of 97 steps (90%) done
+Submitted job 24 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule final_filter:
+    input: /scr1/users/leej39/Redding/assembly/megahit/S24_asm/final.contigs.fa
+    output: /scr1/users/leej39/Redding/assembly/contigs/S24-contigs.fa
+    log: /scr1/users/leej39/Redding/assembly/log/vsearch/S24.log
+    jobid: 42
+    wildcards: sample=S24
+
+Submitted job 42 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+Waiting at most 90 seconds for missing files.
+Finished job 27.
+88 of 97 steps (91%) done
+Finished job 24.
+89 of 97 steps (92%) done
+Finished job 42.
+90 of 97 steps (93%) done
+Finished job 51.
+91 of 97 steps (94%) done
+
+rule final_filter:
+    input: /scr1/users/leej39/Redding/assembly/megahit/S10_asm/final.contigs.fa
+    output: /scr1/users/leej39/Redding/assembly/contigs/S10-contigs.fa
+    log: /scr1/users/leej39/Redding/assembly/log/vsearch/S10.log
+    jobid: 3
+    wildcards: sample=S10
+
+Submitted job 3 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+Waiting at most 90 seconds for missing files.
+Finished job 3.
+92 of 97 steps (95%) done
+Finished job 95.
+93 of 97 steps (96%) done
+
+rule final_filter:
+    input: /scr1/users/leej39/Redding/assembly/megahit/S15_asm/final.contigs.fa
+    output: /scr1/users/leej39/Redding/assembly/contigs/S15-contigs.fa
+    log: /scr1/users/leej39/Redding/assembly/log/vsearch/S15.log
+    jobid: 47
+    wildcards: sample=S15
+
+Finished job 91.
+94 of 97 steps (97%) done
+Submitted job 47 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+
+rule final_filter:
+    input: /scr1/users/leej39/Redding/assembly/megahit/S43_asm/final.contigs.fa
+    output: /scr1/users/leej39/Redding/assembly/contigs/S43-contigs.fa
+    log: /scr1/users/leej39/Redding/assembly/log/vsearch/S43.log
+    jobid: 43
+    wildcards: sample=S43
+
+Submitted job 43 with external jobid 'removed environment variable LD_LIBRARY_PATH_modshare from submit environment - it is considered a security issue'.
+Waiting at most 90 seconds for missing files.
+Finished job 47.
+95 of 97 steps (98%) done
+Finished job 43.
+96 of 97 steps (99%) done
+
+localrule all:
+    input: /scr1/users/leej39/Redding/assembly/contigs/S1-contigs.fa, /scr1/users/leej39/Redding/assembly/contigs/S2-contigs.fa, /scr1/users/leej39/Redding/assembly/contigs/S3-contigs.fa, /scr1/users/leej39/Redding/assembly/contigs/S4-contigs.fa, /scr1/users/leej39/Redding/assembly/contigs/S5-contigs.fa, /scr1/users/leej39/Redding/assembly/contigs/S6-contigs.fa, /scr1/users/leej39/Redding/assembly/contigs/S7-contigs.fa, /scr1/users/leej39/Redding/assembly/contigs/S8-contigs.fa, /scr1/users/leej39/Redding/assembly/contigs/S9-contigs.fa, /scr1/users/leej39/Redding/assembly/contigs/S10-contigs.fa, /scr1/users/leej39/Redding/assembly/contigs/S11-contigs.fa, /scr1/users/leej39/Redding/assembly/contigs/S12-contigs.fa, /scr1/users/leej39/Redding/assembly/contigs/S13-contigs.fa, /scr1/users/leej39/Redding/assembly/contigs/S14-contigs.fa, /scr1/users/leej39/Redding/assembly/contigs/S15-contigs.fa, /scr1/users/leej39/Redding/assembly/contigs/S16-contigs.fa, /scr1/users/leej39/Redding/assembly/contigs/S17-contigs.fa, /scr1/users/leej39/Redding/assembly/contigs/S18-contigs.fa, /scr1/users/leej39/Redding/assembly/contigs/S19-contigs.fa, /scr1/users/leej39/Redding/assembly/contigs/S20-contigs.fa, /scr1/users/leej39/Redding/assembly/contigs/S21-contigs.fa, /scr1/users/leej39/Redding/assembly/contigs/S22-contigs.fa, /scr1/users/leej39/Redding/assembly/contigs/S23-contigs.fa, /scr1/users/leej39/Redding/assembly/contigs/S24-contigs.fa, /scr1/users/leej39/Redding/assembly/contigs/S25-contigs.fa, /scr1/users/leej39/Redding/assembly/contigs/S26-contigs.fa, /scr1/users/leej39/Redding/assembly/contigs/S27-contigs.fa, /scr1/users/leej39/Redding/assembly/contigs/S28-contigs.fa, /scr1/users/leej39/Redding/assembly/contigs/S29-contigs.fa, /scr1/users/leej39/Redding/assembly/contigs/S30-contigs.fa, /scr1/users/leej39/Redding/assembly/contigs/S31-contigs.fa, /scr1/users/leej39/Redding/assembly/contigs/S32-contigs.fa, /scr1/users/leej39/Redding/assembly/contigs/S33-contigs.fa, /scr1/users/leej39/Redding/assembly/contigs/S34-contigs.fa, /scr1/users/leej39/Redding/assembly/contigs/S35-contigs.fa, /scr1/users/leej39/Redding/assembly/contigs/S36-contigs.fa, /scr1/users/leej39/Redding/assembly/contigs/S37-contigs.fa, /scr1/users/leej39/Redding/assembly/contigs/S38-contigs.fa, /scr1/users/leej39/Redding/assembly/contigs/S39-contigs.fa, /scr1/users/leej39/Redding/assembly/contigs/S40-contigs.fa, /scr1/users/leej39/Redding/assembly/contigs/S41-contigs.fa, /scr1/users/leej39/Redding/assembly/contigs/S42-contigs.fa, /scr1/users/leej39/Redding/assembly/contigs/S43-contigs.fa, /scr1/users/leej39/Redding/assembly/contigs/S44-contigs.fa, /scr1/users/leej39/Redding/assembly/contigs/S45-contigs.fa, /scr1/users/leej39/Redding/assembly/contigs/S46-contigs.fa, /scr1/users/leej39/Redding/assembly/contigs/S47-contigs.fa, /scr1/users/leej39/Redding/assembly/contigs/S48-contigs.fa
+    jobid: 0
+
+Finished job 0.
+97 of 97 steps (100%) done
+Complete log: /scr1/users/leej39/Redding/.snakemake/log/2019-09-03T141646.167706.snakemake.log
+mail -s 'Workflow finished successfully' junglee0713@gmail.com < /scr1/users/leej39/Redding/.snakemake/log/2019-09-03T141646.167706.snakemake.log

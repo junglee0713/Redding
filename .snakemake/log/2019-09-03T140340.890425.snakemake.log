@@ -1,0 +1,195 @@
+Building DAG of jobs...
+File path '/scr1/users/leej39/Redding/assembly/contigs/S1
+-contigs.fa' contains line break. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path '/scr1/users/leej39/Redding/assembly/contigs/S2
+-contigs.fa' contains line break. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path '/scr1/users/leej39/Redding/assembly/contigs/S3
+-contigs.fa' contains line break. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path '/scr1/users/leej39/Redding/assembly/contigs/S4
+-contigs.fa' contains line break. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path '/scr1/users/leej39/Redding/assembly/contigs/S5
+-contigs.fa' contains line break. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path '/scr1/users/leej39/Redding/assembly/contigs/S6
+-contigs.fa' contains line break. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path '/scr1/users/leej39/Redding/assembly/contigs/S7
+-contigs.fa' contains line break. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path '/scr1/users/leej39/Redding/assembly/contigs/S8
+-contigs.fa' contains line break. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path '/scr1/users/leej39/Redding/assembly/contigs/S9
+-contigs.fa' contains line break. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path '/scr1/users/leej39/Redding/assembly/contigs/S10
+-contigs.fa' contains line break. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path '/scr1/users/leej39/Redding/assembly/contigs/S11
+-contigs.fa' contains line break. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path '/scr1/users/leej39/Redding/assembly/contigs/S12
+-contigs.fa' contains line break. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path '/scr1/users/leej39/Redding/assembly/contigs/S13
+-contigs.fa' contains line break. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path '/scr1/users/leej39/Redding/assembly/contigs/S14
+-contigs.fa' contains line break. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path '/scr1/users/leej39/Redding/assembly/contigs/S15
+-contigs.fa' contains line break. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path '/scr1/users/leej39/Redding/assembly/contigs/S16
+-contigs.fa' contains line break. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path '/scr1/users/leej39/Redding/assembly/contigs/S17
+-contigs.fa' contains line break. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path '/scr1/users/leej39/Redding/assembly/contigs/S18
+-contigs.fa' contains line break. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path '/scr1/users/leej39/Redding/assembly/contigs/S19
+-contigs.fa' contains line break. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path '/scr1/users/leej39/Redding/assembly/contigs/S20
+-contigs.fa' contains line break. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path '/scr1/users/leej39/Redding/assembly/contigs/S21
+-contigs.fa' contains line break. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path '/scr1/users/leej39/Redding/assembly/contigs/S22
+-contigs.fa' contains line break. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path '/scr1/users/leej39/Redding/assembly/contigs/S23
+-contigs.fa' contains line break. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path '/scr1/users/leej39/Redding/assembly/contigs/S24
+-contigs.fa' contains line break. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path '/scr1/users/leej39/Redding/assembly/contigs/S25
+-contigs.fa' contains line break. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path '/scr1/users/leej39/Redding/assembly/contigs/S26
+-contigs.fa' contains line break. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path '/scr1/users/leej39/Redding/assembly/contigs/S27
+-contigs.fa' contains line break. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path '/scr1/users/leej39/Redding/assembly/contigs/S28
+-contigs.fa' contains line break. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path '/scr1/users/leej39/Redding/assembly/contigs/S29
+-contigs.fa' contains line break. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path '/scr1/users/leej39/Redding/assembly/contigs/S30
+-contigs.fa' contains line break. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path '/scr1/users/leej39/Redding/assembly/contigs/S31
+-contigs.fa' contains line break. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path '/scr1/users/leej39/Redding/assembly/contigs/S32
+-contigs.fa' contains line break. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path '/scr1/users/leej39/Redding/assembly/contigs/S33
+-contigs.fa' contains line break. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path '/scr1/users/leej39/Redding/assembly/contigs/S34
+-contigs.fa' contains line break. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path '/scr1/users/leej39/Redding/assembly/contigs/S35
+-contigs.fa' contains line break. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path '/scr1/users/leej39/Redding/assembly/contigs/S36
+-contigs.fa' contains line break. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path '/scr1/users/leej39/Redding/assembly/contigs/S37
+-contigs.fa' contains line break. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path '/scr1/users/leej39/Redding/assembly/contigs/S38
+-contigs.fa' contains line break. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path '/scr1/users/leej39/Redding/assembly/contigs/S39
+-contigs.fa' contains line break. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path '/scr1/users/leej39/Redding/assembly/contigs/S40
+-contigs.fa' contains line break. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path '/scr1/users/leej39/Redding/assembly/contigs/S41
+-contigs.fa' contains line break. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path '/scr1/users/leej39/Redding/assembly/contigs/S42
+-contigs.fa' contains line break. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path '/scr1/users/leej39/Redding/assembly/contigs/S43
+-contigs.fa' contains line break. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path '/scr1/users/leej39/Redding/assembly/contigs/S44
+-contigs.fa' contains line break. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path '/scr1/users/leej39/Redding/assembly/contigs/S45
+-contigs.fa' contains line break. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path '/scr1/users/leej39/Redding/assembly/contigs/S46
+-contigs.fa' contains line break. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path '/scr1/users/leej39/Redding/assembly/contigs/S47
+-contigs.fa' contains line break. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+File path '/scr1/users/leej39/Redding/assembly/contigs/S48
+-contigs.fa' contains line break. This is likely unintended. It can also lead to inconsistent results of the file-matching approach used by Snakemake.
+MissingInputException in line 18 of /scr1/users/leej39/Redding/Snakefile:
+Missing input files for rule all:
+/scr1/users/leej39/Redding/assembly/contigs/S8
+-contigs.fa
+/scr1/users/leej39/Redding/assembly/contigs/S35
+-contigs.fa
+/scr1/users/leej39/Redding/assembly/contigs/S34
+-contigs.fa
+/scr1/users/leej39/Redding/assembly/contigs/S1
+-contigs.fa
+/scr1/users/leej39/Redding/assembly/contigs/S39
+-contigs.fa
+/scr1/users/leej39/Redding/assembly/contigs/S21
+-contigs.fa
+/scr1/users/leej39/Redding/assembly/contigs/S28
+-contigs.fa
+/scr1/users/leej39/Redding/assembly/contigs/S46
+-contigs.fa
+/scr1/users/leej39/Redding/assembly/contigs/S3
+-contigs.fa
+/scr1/users/leej39/Redding/assembly/contigs/S30
+-contigs.fa
+/scr1/users/leej39/Redding/assembly/contigs/S20
+-contigs.fa
+/scr1/users/leej39/Redding/assembly/contigs/S22
+-contigs.fa
+/scr1/users/leej39/Redding/assembly/contigs/S47
+-contigs.fa
+/scr1/users/leej39/Redding/assembly/contigs/S11
+-contigs.fa
+/scr1/users/leej39/Redding/assembly/contigs/S42
+-contigs.fa
+/scr1/users/leej39/Redding/assembly/contigs/S19
+-contigs.fa
+/scr1/users/leej39/Redding/assembly/contigs/S36
+-contigs.fa
+/scr1/users/leej39/Redding/assembly/contigs/S14
+-contigs.fa
+/scr1/users/leej39/Redding/assembly/contigs/S45
+-contigs.fa
+/scr1/users/leej39/Redding/assembly/contigs/S5
+-contigs.fa
+/scr1/users/leej39/Redding/assembly/contigs/S38
+-contigs.fa
+/scr1/users/leej39/Redding/assembly/contigs/S23
+-contigs.fa
+/scr1/users/leej39/Redding/assembly/contigs/S7
+-contigs.fa
+/scr1/users/leej39/Redding/assembly/contigs/S2
+-contigs.fa
+/scr1/users/leej39/Redding/assembly/contigs/S16
+-contigs.fa
+/scr1/users/leej39/Redding/assembly/contigs/S41
+-contigs.fa
+/scr1/users/leej39/Redding/assembly/contigs/S15
+-contigs.fa
+/scr1/users/leej39/Redding/assembly/contigs/S27
+-contigs.fa
+/scr1/users/leej39/Redding/assembly/contigs/S44
+-contigs.fa
+/scr1/users/leej39/Redding/assembly/contigs/S32
+-contigs.fa
+/scr1/users/leej39/Redding/assembly/contigs/S37
+-contigs.fa
+/scr1/users/leej39/Redding/assembly/contigs/S10
+-contigs.fa
+/scr1/users/leej39/Redding/assembly/contigs/S48
+-contigs.fa
+/scr1/users/leej39/Redding/assembly/contigs/S12
+-contigs.fa
+/scr1/users/leej39/Redding/assembly/contigs/S6
+-contigs.fa
+/scr1/users/leej39/Redding/assembly/contigs/S31
+-contigs.fa
+/scr1/users/leej39/Redding/assembly/contigs/S17
+-contigs.fa
+/scr1/users/leej39/Redding/assembly/contigs/S26
+-contigs.fa
+/scr1/users/leej39/Redding/assembly/contigs/S25
+-contigs.fa
+/scr1/users/leej39/Redding/assembly/contigs/S40
+-contigs.fa
+/scr1/users/leej39/Redding/assembly/contigs/S29
+-contigs.fa
+/scr1/users/leej39/Redding/assembly/contigs/S4
+-contigs.fa
+/scr1/users/leej39/Redding/assembly/contigs/S33
+-contigs.fa
+/scr1/users/leej39/Redding/assembly/contigs/S9
+-contigs.fa
+/scr1/users/leej39/Redding/assembly/contigs/S24
+-contigs.fa
+/scr1/users/leej39/Redding/assembly/contigs/S18
+-contigs.fa
+/scr1/users/leej39/Redding/assembly/contigs/S13
+-contigs.fa
+/scr1/users/leej39/Redding/assembly/contigs/S43
+-contigs.fa

@@ -1,0 +1,4 @@
+TypeError in line 7 of /scr1/users/leej39/Redding/rules/assembly.rules:
+unsupported operand type(s) for /: 'str' and 'str'
+  File "/scr1/users/leej39/Redding/Snakefile", line 14, in <module>
+  File "/scr1/users/leej39/Redding/rules/assembly.rules", line 7, in <module>

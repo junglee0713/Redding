@@ -1,0 +1,4 @@
+TokenError in line 13 of /scr1/users/leej39/Redding/Snakefile:
+('EOF in multi-line statement', (5, 0))
+  File "/scr1/users/leej39/Redding/Snakefile", line 13, in <module>
+  File "/home/leej39/miniconda3/envs/sunbeam/lib/python3.6/tokenize.py", line 602, in _tokenize

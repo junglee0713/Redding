@@ -1,1 +1,5 @@
-TARGET
+TARGET_ASSEMBLY = expand(
+    ASSEMBLY_DIR + "/contigs/{sample}-contigs.fa", sample = SAMPLE_IDS
+    )
+    
+TARGET_ALL = TARGET_ASSEMBLY
