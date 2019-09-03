@@ -41,3 +41,6 @@ Redding_Cleaned_Data/
 
 # Result that are too big
 assembly/
+
+# Ignore directories, not files
+PanPhlAn_Scripts/*/
